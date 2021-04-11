@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">MyAndroidProject</string>
+    <string name="first_android_project">First Android project!</string>
+    <string name="Edit">Ввод текста</string>
+    <string name="start">Start</string>
+    <string name="Switch">Переключатель</string>
+    <string name="check">Флаг</string>
+    <string name="off">OFF</string>
+    <string name="on">ON</string>
+    <string name="back">Back</string>
 </resources>
