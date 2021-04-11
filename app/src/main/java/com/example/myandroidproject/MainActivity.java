@@ -2,6 +2,7 @@ package com.example.myandroidproject;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -10,7 +11,8 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     Button btnTask1;
-    Button btnTask2;
+    Button btnTask2
+
 
 
 
@@ -18,6 +20,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         btnTask1 = (Button) findViewById(R.id.task1);
         btnTask2 = (Button) findViewById(R.id.task2);
         btnTask1.setOnClickListener(this);
@@ -37,5 +40,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
 
         }
+
     }
 }
